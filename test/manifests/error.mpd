@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" availabilityStartTime="2018-09-18T17:29:34Z" maxSegmentDuration="PT2.00533S" minBufferTime="PT2.00533S" minimumUpdatePeriod="PT5.50000S" profiles="urn:mpeg:dash:profile:isoff-live:2011" publishTime="2018-09-21T21:19:47Z" timeShiftBufferDepth="PT50.13333S" type="dynamic" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+
+  <Period id="p455" start="PT272400.00000S">
+    <AdaptationSet id="1" label="English" lang="eng" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:period-continuity:2015" value="p454"/>
+      <ContentComponent contentType="audio"/>
+      <SegmentTemplate duration="96257" initialization="$RepresentationID$/$Bandwidth$/init.m4a" media="$RepresentationID$/$Bandwidth$/$Number$.m4f" presentationTimeOffset="13075221263" startNumber="135837" timescale="48000"/>
+      <Representation audioSamplingRate="48000" bandwidth="24000" codecs="mp4a.40.2" id="English_24000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation audioSamplingRate="48000" bandwidth="64000" codecs="mp4a.40.2" id="English_64000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" label="French" lang="fre" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:period-continuity:2015" value="p454"/>
+      <ContentComponent contentType="audio"/>
+      <SegmentTemplate duration="96257" initialization="$RepresentationID$/$Bandwidth$/init.m4a" media="$RepresentationID$/$Bandwidth$/$Number$.m4f" presentationTimeOffset="13075226155" startNumber="135837" timescale="48000"/>
+      <Representation audioSamplingRate="48000" bandwidth="24000" codecs="mp4a.40.2" id="French_24000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation audioSamplingRate="48000" bandwidth="64000" codecs="mp4a.40.2" id="French_64000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:period-continuity:2015" value="p454"/>
+      <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value="CC1=en;CC3=fr"/>
+      <ContentComponent contentType="video"/>
+      <SegmentTemplate duration="180181" initialization="$RepresentationID$/$Bandwidth$/init.m4v" media="$RepresentationID$/$Bandwidth$/$Number$.m4f" presentationTimeOffset="24516000000" startNumber="136063" timescale="90000"/>
+      <Representation bandwidth="1775000" codecs="avc1.42001e" height="404" id="1_1775000" sar="1:1" scanType="progressive" width="536"/>
+      <Representation bandwidth="900000" codecs="avc1.42001e" height="360" id="2_900000" sar="1:1" scanType="progressive" width="480"/>
+      <Representation bandwidth="400000" codecs="avc1.42001e" height="360" id="3_400000" sar="1:1" scanType="progressive" width="480"/>
+      <Representation bandwidth="200000" codecs="avc1.42000d" height="232" id="4_200000" sar="1:1" scanType="progressive" width="304"/>
+      <Representation bandwidth="70000" codecs="avc1.42000d" height="232" id="5_70000" sar="1:1" scanType="progressive" width="304"/>
+    </AdaptationSet>
+  </Period>
+
+  <Period id="p456" start="PT273000.00000S">
+    <AdaptationSet id="1" label="English" lang="eng" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:period-continuity:2015" value="p455"/>
+      <ContentComponent contentType="audio"/>
+      <SegmentTemplate duration="96257" initialization="$RepresentationID$/$Bandwidth$/init.m4a" media="$RepresentationID$/$Bandwidth$/$Number$.m4f" presentationTimeOffset="13104021263" startNumber="136136" timescale="48000"/>
+      <Representation audioSamplingRate="48000" bandwidth="24000" codecs="mp4a.40.2" id="English_24000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation audioSamplingRate="48000" bandwidth="64000" codecs="mp4a.40.2" id="English_64000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" label="French" lang="fre" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:period-continuity:2015" value="p455"/>
+      <ContentComponent contentType="audio"/>
+      <SegmentTemplate duration="96257" initialization="$RepresentationID$/$Bandwidth$/init.m4a" media="$RepresentationID$/$Bandwidth$/$Number$.m4f" presentationTimeOffset="13104026155" startNumber="136136" timescale="48000"/>
+      <Representation audioSamplingRate="48000" bandwidth="24000" codecs="mp4a.40.2" id="French_24000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation audioSamplingRate="48000" bandwidth="64000" codecs="mp4a.40.2" id="French_64000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:period-continuity:2015" value="p455"/>
+      <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value="CC1=en;CC3=fr"/>
+      <ContentComponent contentType="video"/>
+      <SegmentTemplate duration="180181" initialization="$RepresentationID$/$Bandwidth$/init.m4v" media="$RepresentationID$/$Bandwidth$/$Number$.m4f" presentationTimeOffset="24570000000" startNumber="136363" timescale="90000"/>
+      <Representation bandwidth="1775000" codecs="avc1.42001e" height="404" id="1_1775000" sar="1:1" scanType="progressive" width="536"/>
+      <Representation bandwidth="900000" codecs="avc1.42001e" height="360" id="2_900000" sar="1:1" scanType="progressive" width="480"/>
+      <Representation bandwidth="400000" codecs="avc1.42001e" height="360" id="3_400000" sar="1:1" scanType="progressive" width="480"/>
+      <Representation bandwidth="200000" codecs="avc1.42000d" height="232" id="4_200000" sar="1:1" scanType="progressive" width="304"/>
+      <Representation bandwidth="70000" codecs="avc1.42000d" height="232" id="5_70000" sar="1:1" scanType="progressive" width="304"/>
+    </AdaptationSet>
+  </Period>
+
+</MPD>
